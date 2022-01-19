@@ -38,7 +38,6 @@ function setup(){
     
   fakeGround = createSprite(50,195,1100,10);
   
-  //crea el Trex
   trex = createSprite(50,165,20,50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collide", trex_collide);
@@ -53,7 +52,6 @@ function setup(){
   restart.scale = 0.6;
   restart.visible = false;
   
-  //añade escala y posición al Trex
   trex.scale = 0.5;
   trex.x = 50;
   fakeGround.visible = false;
